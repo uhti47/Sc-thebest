@@ -1,0 +1,45 @@
+a       = 1.1
+b       = 0
+c       = 95
+d       = a * 0.00000001 
+target  = balance * 1.5
+bethigh = !bethigh
+nextbet = a
+chance  = c
+resetstats()
+resetchart()
+function r(f,g) 
+    return math.random(f,g) 
+end
+
+function s(f,g,h)
+    return f/(95/g-2.3)+h 
+end
+
+function t(f)
+    return math.ceil(f*10^5)/10^5
+end
+
+function dobet()
+       if balance >= target then 
+          stop()
+      end 
+    b = b+previousbet 
+    if win then 
+        if e then 
+        end
+    b = 0 
+    n = a 
+    c = r(37,45) 
+    q = r(0,2)>0.000000015 
+else  
+n=s(b,c,d)
+end
+
+if n<a then n=a 
+end
+bethigh = q
+chance  = c
+nextbet = t(n)
+end
+end
