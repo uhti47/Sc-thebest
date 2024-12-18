@@ -30,7 +30,7 @@ function dobet()
         end
     b = 0 
     n = a 
-    c = r(37,45) 
+    c = r(41,43) 
     q = r(0,2)>0.000000015 
 else  
 n=s(b,c,d)
