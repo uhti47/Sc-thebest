@@ -78,7 +78,6 @@ function dobet()
 
         if os.clock() > runtime then
 
-            print("+ " .. fix8(profit) .. "\t(" .. fix2(profit / (balance - profit) * 100) .. "%)")
 
             stop()
 
